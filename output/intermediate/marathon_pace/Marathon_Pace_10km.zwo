@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<workout_file>
+    <author>Coach Claudio</author>
+    <name>Marathon Pace 10km</name>
+    <description>Practice race pace. Dial in fueling strategy.</description>
+    <sportType>run</sportType>
+    <tags>
+        <tag name="marathon_pace"/>
+        <tag name="intermediate"/>
+    </tags>
+    <workout>
+        <Warmup Duration="708" PowerLow="0.55" PowerHigh="0.76"/>
+        <SteadyState Duration="3300" Power="0.84">
+            <textevent timeoffset="0" message="Marathon goal pace"/>
+        </SteadyState>
+        <Cooldown Duration="708" PowerLow="0.76" PowerHigh="0.55"/>
+    </workout>
+</workout_file>

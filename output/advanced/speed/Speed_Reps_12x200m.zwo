@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<workout_file>
+    <author>Coach Claudio</author>
+    <name>Speed Reps 12x200m</name>
+    <description>Fast, relaxed strides. Focus on form.</description>
+    <sportType>run</sportType>
+    <tags>
+        <tag name="speed"/>
+        <tag name="advanced"/>
+    </tags>
+    <workout>
+        <Warmup Duration="612" PowerLow="0.55" PowerHigh="0.76"/>
+        <IntervalsT Repeat="12" OnDuration="39" OffDuration="34" OnPower="1.27" OffPower="0.60"/>
+        <Cooldown Duration="612" PowerLow="0.76" PowerHigh="0.55"/>
+    </workout>
+</workout_file>

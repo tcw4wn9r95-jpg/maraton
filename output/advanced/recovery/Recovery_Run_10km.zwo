@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<workout_file>
+    <author>Coach Claudio</author>
+    <name>Recovery Run 10km</name>
+    <description>Very easy effort to promote recovery.</description>
+    <sportType>run</sportType>
+    <tags>
+        <tag name="recovery"/>
+        <tag name="advanced"/>
+    </tags>
+    <workout>
+        <SteadyState Duration="3450" Power="0.60">
+            <textevent timeoffset="0" message="Very easy shuffle pace"/>
+        </SteadyState>
+    </workout>
+</workout_file>

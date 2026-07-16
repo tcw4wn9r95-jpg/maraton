@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<workout_file>
+    <author>Coach Claudio</author>
+    <name>Long Run 28km w/ 6km MP</name>
+    <description>Long run finishing with 6km at marathon pace.</description>
+    <sportType>run</sportType>
+    <tags>
+        <tag name="long_run_mp"/>
+        <tag name="beginner"/>
+    </tags>
+    <workout>
+        <Warmup Duration="858" PowerLow="0.55" PowerHigh="0.76"/>
+        <SteadyState Duration="8265" Power="0.74">
+            <textevent timeoffset="0" message="Easy long-run pace"/>
+        </SteadyState>
+        <SteadyState Duration="2430" Power="0.84">
+            <textevent timeoffset="0" message="Marathon goal pace"/>
+        </SteadyState>
+        <Cooldown Duration="429" PowerLow="0.76" PowerHigh="0.55"/>
+    </workout>
+</workout_file>

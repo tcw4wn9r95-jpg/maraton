@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<workout_file>
+    <author>Coach Claudio</author>
+    <name>Fartlek 6x4min</name>
+    <description>Unstructured speed play. Fun and fast.</description>
+    <sportType>run</sportType>
+    <tags>
+        <tag name="fartlek"/>
+        <tag name="advanced"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.55" PowerHigh="0.76"/>
+        <IntervalsT Repeat="6" OnDuration="240" OffDuration="120" OnPower="1.00" OffPower="0.71"/>
+        <Cooldown Duration="600" PowerLow="0.76" PowerHigh="0.55"/>
+    </workout>
+</workout_file>

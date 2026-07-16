@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<workout_file>
+    <author>Coach Claudio</author>
+    <name>Easy Run 7km</name>
+    <description>Steady easy-pace run. Conversational effort.</description>
+    <sportType>run</sportType>
+    <tags>
+        <tag name="easy"/>
+        <tag name="beginner"/>
+    </tags>
+    <workout>
+        <SteadyState Duration="3003" Power="0.71">
+            <textevent timeoffset="0" message="Relaxed, conversational pace"/>
+        </SteadyState>
+    </workout>
+</workout_file>

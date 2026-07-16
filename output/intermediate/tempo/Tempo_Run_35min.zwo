@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<workout_file>
+    <author>Coach Claudio</author>
+    <name>Tempo Run 35min</name>
+    <description>Comfortably hard sustained effort.</description>
+    <sportType>run</sportType>
+    <tags>
+        <tag name="tempo"/>
+        <tag name="intermediate"/>
+    </tags>
+    <workout>
+        <Warmup Duration="708" PowerLow="0.55" PowerHigh="0.76"/>
+        <SteadyState Duration="2100" Power="0.92">
+            <textevent timeoffset="0" message="Steady tempo effort"/>
+        </SteadyState>
+        <Cooldown Duration="708" PowerLow="0.76" PowerHigh="0.55"/>
+    </workout>
+</workout_file>

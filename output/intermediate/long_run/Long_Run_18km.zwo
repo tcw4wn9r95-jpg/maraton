@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<workout_file>
+    <author>Coach Claudio</author>
+    <name>Long Run 18km</name>
+    <description>Long aerobic run. Stay patient, fuel well.</description>
+    <sportType>run</sportType>
+    <tags>
+        <tag name="long_run"/>
+        <tag name="intermediate"/>
+    </tags>
+    <workout>
+        <Warmup Duration="708" PowerLow="0.55" PowerHigh="0.76"/>
+        <SteadyState Duration="5400" Power="0.74">
+            <textevent timeoffset="0" message="Steady long-run pace"/>
+        </SteadyState>
+        <Cooldown Duration="354" PowerLow="0.76" PowerHigh="0.55"/>
+    </workout>
+</workout_file>

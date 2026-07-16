@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<workout_file>
+    <author>Coach Claudio</author>
+    <name>Easy 5km + 4 Strides</name>
+    <description>Easy run with finishing strides to maintain turnover.</description>
+    <sportType>run</sportType>
+    <tags>
+        <tag name="easy_strides"/>
+        <tag name="beginner"/>
+    </tags>
+    <workout>
+        <SteadyState Duration="2145" Power="0.71">
+            <textevent timeoffset="0" message="Easy pace"/>
+        </SteadyState>
+        <IntervalsT Repeat="4" OnDuration="20" OffDuration="40" OnPower="1.40" OffPower="0.60"/>
+    </workout>
+</workout_file>

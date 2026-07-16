@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<workout_file>
+    <author>Coach Claudio</author>
+    <name>VO2max 6x1000m</name>
+    <description>Fast intervals at 3K-5K effort. Build top-end aerobic power.</description>
+    <sportType>run</sportType>
+    <tags>
+        <tag name="vo2max"/>
+        <tag name="advanced"/>
+    </tags>
+    <workout>
+        <Warmup Duration="612" PowerLow="0.55" PowerHigh="0.76"/>
+        <IntervalsT Repeat="6" OnDuration="219" OffDuration="138" OnPower="1.13" OffPower="0.60"/>
+        <Cooldown Duration="612" PowerLow="0.76" PowerHigh="0.55"/>
+    </workout>
+</workout_file>

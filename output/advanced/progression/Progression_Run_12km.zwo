@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<workout_file>
+    <author>Coach Claudio</author>
+    <name>Progression Run 12km</name>
+    <description>Start easy, finish fast. Teaches pacing discipline.</description>
+    <sportType>run</sportType>
+    <tags>
+        <tag name="progression"/>
+        <tag name="advanced"/>
+    </tags>
+    <workout>
+        <SteadyState Duration="1224" Power="0.71">
+            <textevent timeoffset="0" message="Easy pace - first third"/>
+        </SteadyState>
+        <SteadyState Duration="1056" Power="0.84">
+            <textevent timeoffset="0" message="Marathon pace - middle third"/>
+        </SteadyState>
+        <SteadyState Duration="1032" Power="0.92">
+            <textevent timeoffset="0" message="Tempo pace - final push"/>
+        </SteadyState>
+    </workout>
+</workout_file>
